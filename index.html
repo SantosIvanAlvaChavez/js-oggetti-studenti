@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Oggetti Studenti</title>
+  </head>
+  <body>
+    <ol id="student-list"></ol>
+
+    <!-- TEMPLATE HANDLEBARS -->
+    <script id="entry-template" type="text/x-handlebars-template">
+      <li>
+        <h1>{{ nome }} {{ cognome }}</h1>
+        <h2>Anni: {{ eta }}</h2>
+      </li>
+    </script>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
